@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/animulli/protractortest#readme",
   "devDependencies": {
+    "jasmine-reporters": "^2.2.0",
     "protractor": "^4.0.10"
   }
 }
