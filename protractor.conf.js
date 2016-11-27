@@ -4,6 +4,7 @@ exports.config = {
   multiCapabilities: [{
     'browserName': 'firefox'
   }, {
-    'browserName': 'chrome'
+    'browserName': 'chrome',
+    'shardTestFiles': 'true'
   }]
 };
