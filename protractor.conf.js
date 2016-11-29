@@ -4,11 +4,11 @@ exports.config = {
   multiCapabilities: [{
     'browserName': 'firefox'
   }
-  // ,{
-  //   'browserName': 'chrome',
-  //   shardTestFiles: true,
-  //   maxInstances: 2
-  // }
+  ,{
+    'browserName': 'chrome',
+    shardTestFiles: true,
+    maxInstances: 2
+  }
   ],
   framework: 'jasmine2',
  //  onPrepare: function() {
